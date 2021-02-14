@@ -1,12 +1,17 @@
 ## Welcome to Hua Yen's Pages
 
-You can listen to some alarm sounds mentionned in my mémoire _**Design d'alarmes sonores**_
+You can listen to the alarm sounds mentionned in my mémoire _**Design d'alarmes sonores**_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# page 7
+### Gong 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+
+[GitHub Flavored Markdown](https://www.youtube.com/watch?v=mL2r6E1E7sM)
+
+
 
 ```markdown
 Syntax highlighted code block
