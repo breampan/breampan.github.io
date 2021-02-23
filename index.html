@@ -76,7 +76,27 @@
 <title>Design d'alarmes sonores</title>
 </head>
 <body>
+var vibrateInterval;
 
+// Starts vibration at passed in level
+function startVibrate(duration) {
+    navigator.vibrate(duration);
+}
+
+// Stops vibration
+function stopVibrate() {
+    // Clear interval and stop persistent vibrating
+    if(vibrateInterval) clearInterval(vibrateInterval);
+    navigator.vibrate(0);
+}
+
+// Start persistent vibration at given duration and interval
+// Assumes a number value is given
+function startPersistentVibrate(duration, interval) {
+    vibrateInterval = setInterval(function() {
+        startVibrate(duration);
+    }, interval);
+}
 <h1>Design d'alarmes sonores</h1>
 <h2>Exemples listening</h2>     
 <h3> Page 7</h3>
